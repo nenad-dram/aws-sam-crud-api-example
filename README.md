@@ -12,6 +12,10 @@ Each API method has a dedicated Lambda function named after its functionality, b
 All features are covered by integration tests (via Testcontainers and localstack image).  
 AWS resources are defined in the `template.yaml` file.
 
+## Architecture diagram
+
+![Alt text](./resources/aws-diagram.png?raw=true)
+
 ## Build and deployment
 To build and deploy run the following in a shell:
 
